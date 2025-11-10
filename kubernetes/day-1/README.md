@@ -48,10 +48,13 @@
 ### Quais as portas TCP e UDP dos componentes do Kubernetes?!
 
 - kube -> apiserver -> 6334 -> tcp
-- etcd -> 2378-2380 -> tcp
+- etcd -> 2379-2380 -> tcp
 - kube-scheduler -> 10251 -> tpc
 - kubelet -> 10250 -> tcp
 - kube-controller -> 10252 -> tcp
 - node-port -> 30000 - 32767 -> tcp
 - weave net -> 6783-6784 -> tcp/udp
 
+### Introducão a pods, replica sets, deployments e service
+
+<img src="./kubernetes-1.excalidraw.png">
